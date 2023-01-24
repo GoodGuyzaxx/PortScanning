@@ -1,7 +1,8 @@
 import java.net.*
 
 fun main() {
-    val portList =  arrayOf(21,80,443,53)
+    //(21,80,443,53)
+    val portList =  21..443
 
     for (port: Int in portList){
         try {
